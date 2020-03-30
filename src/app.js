@@ -12,6 +12,8 @@ import 'normalize.css/normalize.css'
 import Counter from './playground/counter'
 import Comp from './components/practice'
 const store=configureStore();
+import './firebase/firebase'
+// import './playground/promises'
 // store.dispatch(addExpense({description:'water bill',amount:4500}));
 // store.dispatch(addExpense({description:'Gas bill',amount:3500,createdAt:1000}))
 // store.dispatch(addExpense({description:'rent',amount:109500}));
